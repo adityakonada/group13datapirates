@@ -23,7 +23,7 @@ public class Test {
 		assertEquals(9,calc.add(5, 4));
 	}
 	@org.junit.Test
-	public void testadd3() {
-		assertEquals(15,calc.add(5, 10));
+	public void testadd4() {
+		assertEquals(20,calc.add(10, 10));
 	}
 }
