@@ -11,8 +11,10 @@ public class Test {
 	}
 
 	@org.junit.Test
-	public void testadd() {
+	public void testadd1() {
 		assertEquals(7,calc.add(5, 2));
 	}
-
+	public void testadd2() {
+		assertEquals(3,calc.add(3, 7));
+	}
 }
