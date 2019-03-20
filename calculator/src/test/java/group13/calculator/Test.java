@@ -14,10 +14,12 @@ public class Test {
 	public void testadd1() {
 		assertEquals(7,calc.add(5, 2));
 	}
+	@org.junit.Test
 	public void testadd2() {
-		assertEquals(3,calc.add(3, 7));
+		assertEquals(11,calc.add(3, 7));
 	}
+	@org.junit.Test
 	public void testadd3() {
-		assertEquals(3,calc.add(3, 7));
+		assertEquals(6,calc.add(4, 2));
 	}
 }
