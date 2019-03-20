@@ -17,4 +17,7 @@ public class Test {
 	public void testadd2() {
 		assertEquals(3,calc.add(3, 7));
 	}
+	public void testadd3() {
+		assertEquals(3,calc.add(3, 7));
+	}
 }
