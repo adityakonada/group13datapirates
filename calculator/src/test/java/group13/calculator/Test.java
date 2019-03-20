@@ -18,4 +18,8 @@ public class Test {
 	public void testadd2() {
 		assertEquals(3,calc.add(2, 1));
 	}
+	@org.junit.Test
+	public void testadd3() {
+		assertEquals(9,calc.add(5, 4));
+	}
 }
