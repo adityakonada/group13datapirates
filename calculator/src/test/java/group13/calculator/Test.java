@@ -24,6 +24,6 @@ public class Test {
 	}
 	@org.junit.Test
 	public void testadd4() {
-		assertEquals(40,calc.add(30, 10));
+		assertEquals(20,calc.add(10, 10));
 	}
 }
