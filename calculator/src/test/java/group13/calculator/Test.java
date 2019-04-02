@@ -30,4 +30,8 @@ public class Test {
 	public void testsub1() {
 		assertEquals(30,calc.sub(50, 20));
 	}
+	@org.junit.Test
+	public void testmul1() {
+		assertEquals(20,calc.mul(5, 4));
+	}
 }
