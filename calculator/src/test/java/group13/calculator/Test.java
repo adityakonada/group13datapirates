@@ -36,6 +36,6 @@ public class Test {
 	}
 	@org.junit.Test
 	public void testdiv1() {
-		assertEquals(5,calc.div(20, 4));
+		assertEquals(4,calc.div(20, 5));
 	}
 }
