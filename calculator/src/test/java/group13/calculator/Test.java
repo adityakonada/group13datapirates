@@ -34,4 +34,8 @@ public class Test {
 	public void testmul1() {
 		assertEquals(24,calc.mul(6, 4));
 	}
+	@org.junit.Test
+	public void testdiv1() {
+		assertEquals(5,calc.div(20, 4));
+	}
 }
