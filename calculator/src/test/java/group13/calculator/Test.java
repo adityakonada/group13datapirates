@@ -32,6 +32,6 @@ public class Test {
 	}
 	@org.junit.Test
 	public void testmul1() {
-		assertEquals(20,calc.mul(5, 4));
+		assertEquals(24,calc.mul(6, 4));
 	}
 }
