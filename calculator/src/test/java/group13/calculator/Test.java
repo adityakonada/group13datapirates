@@ -38,4 +38,8 @@ public class Test {
 	public void testdiv1() {
 		assertEquals(4,calc.div(20, 5));
 	}
+	@org.junit.Test
+	public void testdiv2() {
+		assertEquals(5,calc.div(20, 4));
+	}
 }
